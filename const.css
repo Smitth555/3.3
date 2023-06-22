@@ -1,0 +1,329 @@
+
+.slick-dots li {
+  display: inline-block;
+  margin: 0 5px;
+}
+
+.slick-dots li button {
+  font-size: 0;
+  line-height: 0;
+  display: block;
+  width: 20px;
+  height: 20px;
+  padding: 5px;
+  border: none;
+  border-radius: 50%;
+  background-color: #bbb;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.slick-dots li.slick-active button {
+  background-color: #fff;
+}
+@media only screen and (max-width: 768px) {
+   }
+/* Стили для точек навигации */
+.slick-dots {
+  position: absolute;
+  bottom: 40px;
+  width: 50px;
+  height: 50px;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  list-style: none;
+}
+  .slider {
+    height: 350px;
+    width: 350px;
+    position: relative;
+    top: 20px;
+    left: 18px;
+    right: 15px;
+  }
+  .slider img {
+    object-fit: cover;
+    height: 350px;
+    width: 350px;
+    border-radius: 50px;
+  }
+  .slider > div:not(:last-child) {
+    margin-right: -50px;
+  }
+  .in-stock {
+    background-color: rgb(251, 253, 141); /* Указываем цвет фона */
+    color: rgb(8, 8, 8); /* Указываем цвет текста */
+    font-weight: bold; /* Жирный текст */
+    padding: 5px 10px; /* Отступы внутри плашки */
+    border-radius: 15px; /* Скругление углов */
+     margin-left: 25px;
+     width: 370px;
+     margin-top: 8px;
+  }
+.plaque[id="1"] {
+  width: 370px;
+margin-top: 17px;
+height: 190px;
+background-color:#fdfbf8;
+padding: 10px 10px 10px 40px; /* добавлен левый внутренний отступ для иконки */
+position: relative; /* Устанавливаем родительский элемент позиционированным */
+left: 20px;
+border-radius: 25px;
+}
+.plaque i[name="i1"] {
+  margin-right: 12px;
+  color: #38d652;
+}
+
+.plaque i[name="i2"] {
+  margin-right: 12px;
+  color: #222422;
+}
+
+h1 {
+  color: white;
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-align: left; /* Выравнивание текста по центру */
+  padding: 10px 10px 10px 40px; /* добавлен левый внутренний отступ для иконки */
+}
+h2 {
+  font-size: 29px;
+  color: #f8f6f6;
+  text-align: left;
+  margin-top: 15px;
+  text-transform: uppercase;
+  padding-left: 0px;
+  padding-right: 0;
+  padding-bottom: 8px;
+}
+p{
+  font-size: 18px;
+  font-weight: bold;
+}
+.price-tag {
+  width: 359px;
+  height: 310px;
+  position: relative;
+  left: 25px;
+  display: inline-block;
+  position: relative;
+  background-color: #f2f2f2;
+  padding: 10px;
+  border-radius: 22px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.add-to-cart-link {
+  display: inline-block;
+  background-color:orange;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 10px;
+  width: 300px;
+  margin-top: 20px;
+}
+ 
+
+.price {
+  margin-left: 50px;
+  font-size: 24px;
+  font-weight: bold;
+  align-self: flex-end;
+}
+
+.price-regular {
+  text-decoration: line-through;
+  color: #818080;
+  margin-right: 10px;
+  align-self: flex-start;
+}
+.telegram-link {
+  display: inline-block;
+  background-color: #262727;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 16px;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+  position: relative;
+  left: -10px;
+  width: 330px;
+  margin-top: 20px;
+}
+
+.telegram-link:hover {
+  background-color: #535353;
+}
+
+.telegram-link i {
+  margin-right: 10px;
+}
+.product-number {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  color: #fcfafa;
+  margin-left: 28px;
+}
+.product-description {
+  width: 353px;
+  height: 630px;
+  margin-left: 23px;
+  background-color: rgb(252, 248, 248);
+  padding: 10px;
+  border-radius: 25px;
+  font-size: 16px;
+  margin-top: 20px;
+  border-radius: 28px;
+}
+.product-description h3 {
+  color:black;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 30px;
+  font-weight: bold;
+}
+
+.product-description h4 {
+  color:black;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 30px;
+  font-weight: bold;
+}
+
+.product-description p {
+  margin-left: 20px;
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+  color: #333;
+  margin-bottom: 20px;
+  padding: 10px;
+  border-radius: 10px;
+  font-family: Arial, sans-serif; /* Указываем шрифт */
+  font-size: 21px; /* Указываем размер шрифта */
+}
+.product-description h4 + ul {
+  border-top: 2px solid #5f5b5b;
+  margin-top: 1rem;
+  padding-top: 1rem;
+}
+.product-description ul {
+  margin-top: 10px;
+  margin-left: 28px;
+  margin-bottom: 0;
+  padding-left: 20px;
+}
+
+.product-description li {
+  margin-bottom: 5px;
+}
+.logo {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 54px;
+  background-color: #f1f1c4;
+  padding: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 9999;
+}
+.logo h3 {
+  display: inline-block;
+  font-size: 30px;
+  font-weight: bold;
+  vertical-align: middle;
+  margin-left: 33px;
+}
+.additional-info {
+  padding: 20px;
+  border: 0px solid #ccc;
+  height: 200px;
+}
+
+.whatsapp-link {
+  display: inline-block;
+  background-color: #262727;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 16px;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+  position: relative;
+  left: -10px;
+  width: 330px;
+  margin-top: 13px;
+}
+.social-block {
+  display: flex;
+  flex-direction: column;
+  margin-left: 75px;
+}
+
+.social-block p {
+  font-size: 25px;
+  color: #f5f1f1;
+  font-weight: bold;
+  margin-bottom: 10px;
+  margin-left: -25px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.social-links {
+  display: flex;
+}
+
+.social-links a {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 90px;
+  height: 90px;
+  margin: 0 10px;
+  border-radius: 50%;
+  background-color: #f1ecec;
+  color: #0a0a0a;
+  font-size: 24px;
+  transition: all 0.3s ease;
+}
+
+.social-links a:hover {
+  transform: scale(1.2);
+}
+a[href^="tel:"] {
+  display: inline-block;
+  background-color: #262727;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 16px;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+  position: relative;
+  left: -10px;
+  width: 330px;
+  margin-top: 13px;
+}
+
+a[href^="tel:"]:hover {
+  background-color: #393a3a;
+}
