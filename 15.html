@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<!-- Website - www.codingnepalweb.com -->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Shop.com</title>
+    <link rel="stylesheet" href="1.css">
+    <script src="1.js" defer></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css"> 
+     <!-- Подключаем FontAwesome -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container">
+  <!-- Images Filter Buttons Section -->
+  <div class="row mt-5" id="filter-buttons">
+    <div class="col-12">
+      <div class="box">
+        <input type="checkbox" id="check">
+        <div class="search-box">
+          <input type="text" placeholder="Ищите сдесь...">
+          <label for="check" class="icon">
+            <i class="fas fa-search"></i>
+          </label>
+        </div>
+      </div>
+    </div>
+  </div>
+  <h1 id="12" class="hide-on-desktop">Новая коллекция одежды</h1>
+  <img src="jj.jpg" id="2" alt="Описание фото" class="hide-on-desktop">
+      <!-- Filterable Images / Cards Section -->
+      <div class="row px-2 mt-4 gap-3" id="filterable-cards">
+        <div class="card p-0" data-name="nature">   
+            <img src="m1.jfif" alt="img">
+          <div class="card-body">
+            <p class="card-text">Универсальный пиджак </p>
+            <div class="product-number">Товар №123</div>
+            <p class="card-text-desktop">Дополнительный текст для компьютеров</p>
+            <div class="price discount">500 000 UZS</div>
+            <div class="price">600 000 UZS</div>
+            <p>-20% скидка</p>
+            <div class="rating">
+              <span class="star">&#9733;</span>
+              <span class="star">&#9733;</span>
+              <span class="star">&#9733;</span>
+              <span class="star">&#9734;</span>
+              <span class="star">&#9734;</span>
+            </div>
+          </div>
+        </div>
+          <div class="card p-0" data-name="nature">
+              <img src="m2.jfif" alt="img">
+            <div class="card-body">
+              <p class="card-text">Кроссовки для похода</p>
+              <div class="product-number">Товар №123</div>
+              <p class="card-text-desktop">Дополнительный текст для компьютеров</p>      
+              <div class="price discount">500 000 UZS</div>
+            <div class="price">600 000 UZS</div>
+            <p>-20% скидка</p>
+            <div class="rating">
+              <span class="star">&#9733;</span>
+              <span class="star">&#9733;</span>
+              <span class="star">&#9733;</span>
+              <span class="star">&#9734;</span>
+              <span class="star">&#9734;</span>
+            </div>
+          </div>
+        </div>
+        <div class="card p-0" data-name="nature" >
+            <img src="m3.jfif" alt="img">
+          <div class="card-body">
+            <p class="card-text">Lorem ipsum dolor..</p>
+            <div class="product-number">Товар №123</div>
+            <p class="card-text-desktop">Дополнительный текст для компьютеров</p>
+            <div class="price discount">500 000 UZS</div>
+            <div class="price">600 000 UZS</div>
+            <p>-20% скидка</p>
+            <div class="rating">
+              <span class="star">&#9733;</span>
+              <span class="star">&#9733;</span>
+              <span class="star">&#9733;</span>
+              <span class="star">&#9734;</span>
+              <span class="star">&#9734;</span>
+            </div>
+          </div>
+        </div>
+        <div class="card p-0" data-name="cars">
+            <img src="m4.jfif" alt="img">
+          <div class="card-body">
+            <p class="card-text">Lorem ipsum dolor.
+              <div class="product-number">Товар №123</div>
+              <p class="card-text-desktop">Дополнительный текст для компьютеров</p>
+            <div class="price discount">500 000 UZS</div>
+            <div class="price">600 000 UZS</div>
+            <p>-20% скидка</p>
+            <div class="rating">
+              <span class="star">&#9733;</span>
+              <span class="star">&#9733;</span>
+              <span class="star">&#9733;</span>
+              <span class="star">&#9734;</span>
+              <span class="star">&#9734;</span>
+            </div>
+          </div>
+        </div>
+        <div class="card p-0" data-name="cars">
+            <img src="m6.jfif" alt="img">
+          <div class="card-body">
+            <p class="card-text">Lorem ipsum dolor.</p>
+            <div class="product-number">Товар №123</div>
+            <p class="card-text-desktop">Дополнительный текст для компьютеров</p>
+            <div class="price discount">500 000 UZS</div>
+            <div class="price">600 000 UZS</div>
+            <p>-20% скидка</p>
+            <div class="rating">
+              <span class="star">&#9733;</span>
+              <span class="star">&#9733;</span>
+              <span class="star">&#9733;</span>
+              <span class="star">&#9734;</span>
+              <span class="star">&#9734;</span>
+            </div>
+          </div>
+        </div>
+        <div class="card p-0" data-name="cars">
+            <img src="m6.jfif" alt="img">
+          <div class="card-body">
+            <p class="card-text">Lorem ipsum dolor..</p>
+            <div class="product-number">Товар №123</div>
+            <p class="card-text-desktop">Дополнительный текст для компьютеров</p>
+            <div class="price discount">500 000 UZS</div>
+            <div class="price">600 000 UZS</div>
+            <p>-20% скидка</p>
+            <div class="rating">
+              <span class="star">&#9733;</span>
+              <span class="star">&#9733;</span>
+              <span class="star">&#9733;</span>
+              <span class="star">&#9734;</span>
+              <span class="star">&#9734;</span>
+            </div>
+          </div>
+        </div>
+        <div class="card p-0" data-name="people">
+            <img src="m7.jfif" alt="img">
+          <div class="card-body">
+            <p class="card-text">Lorem ipsum dolor...</p>
+            <div class="product-number">Товар №123</div>
+            <p class="card-text-desktop">Дополнительный текст для компьютеров</p>
+            <div class="price discount">500 000 UZS</div>
+            <div class="price">600 000 UZS</div>
+            <p>-20% скидка</p>
+            <div class="rating">
+              <span class="star">&#9733;</span>
+              <span class="star">&#9733;</span>
+              <span class="star">&#9733;</span>
+              <span class="star">&#9734;</span>
+              <span class="star">&#9734;</span>
+            </div>
+          </div>
+        </div>
+        <div class="card p-0" data-name="people">
+            <img src="m8.jfif" alt="img">
+          <div class="card-body">
+            <p class="card-text">Lorem ipsum dolor
+              <div class="product-number">Товар №123</div>
+              <p class="card-text-desktop">Дополнительный текст для компьютеров</p>
+            <div class="price discount">500 000 UZS</div>
+            <div class="price">600 000 UZS</div>
+            <p>-20% скидка</p>
+            <div class="rating">
+              <span class="star">&#9733;</span>
+              <span class="star">&#9733;</span>
+              <span class="star">&#9733;</span>
+              <span class="star">&#9734;</span>
+              <span class="star">&#9734;</span>
+            </div>
+          </div>
+        </div>
+        <div class="card p-0" data-name="people">
+            <img src="m9.jfif" alt="img">
+          <div class="card-body">
+            <p class="card-text">Lorem ipsum dolor..</p>
+            <div class="product-number">Товар №123</div>
+            <p class="card-text-desktop">Дополнительный текст для компьютеров</p>
+            <div class="price discount">500 000 UZS</div>
+            <div class="price">600 000 UZS</div>
+            <p>-20% скидка</p>
+            <div class="rating">
+              <span class="star">&#9733;</span>
+              <span class="star">&#9733;</span>
+              <span class="star">&#9733;</span>
+              <span class="star">&#9734;</span>
+              <span class="star">&#9734;</span>
+            </div>
+          </div>
+        </div>
+        <div class="card p-0" data-name="people">
+            <img src="m10.ru" alt="img">
+          <div class="card-body">
+            <p class="card-text">Lorem ipsum dolor..</p>
+            <div class="product-number">Товар №123</div>
+            <div class="price discount">500 000 UZS</div>
+            <div class="price">600 000 UZS</div>
+            <p>-20% скидка</p>
+            <div class="rating">
+              <span class="star">&#9733;</span>
+              <span class="star">&#9733;</span>
+              <span class="star">&#9733;</span>
+              <span class="star">&#9734;</span>
+              <span class="star">&#9734;</span>
+            </div>
+          </div>
+        </div>
+        <div class="card p-0" data-name="people">
+            <img src="m11.png" alt="img">
+          <div class="card-body">
+            <p class="card-text">Lorem ipsum dolor..</p>
+            <div class="product-number">Товар №123</div>
+            <p class="card-text-desktop">Дополнительный текст для компьютеров</p>
+            <div class="price discount">500 000 UZS</div>
+            <div class="price">600 000 UZS</div>
+            <p>-20% скидка</p>
+            <div class="rating">
+              <span class="star">&#9733;</span>
+              <span class="star">&#9733;</span>
+              <span class="star">&#9733;</span>
+              <span class="star">&#9734;</span>
+              <span class="star">&#9734;</span>
+            </div>
+          </div>
+        </div>
+        <div class="card p-0" data-name="people">
+            <img src="m11.png" alt="img">
+          <div class="card-body">
+            <p class="card-text">Lorem ipsum dolor..</p>
+            <div class="product-number">Товар №123</div>
+            <p class="card-text-desktop">Дополнительный текст для компьютеров</p>
+            <div class="price discount">500 000 UZS</div>
+            <div class="price">600 000 UZS</div>
+            <p>-20% скидка</p>
+            <div class="rating">
+              <span class="star">&#9733;</span>
+              <span class="star">&#9733;</span>
+              <span class="star">&#9733;</span>
+              <span class="star">&#9734;</span>
+              <span class="star">&#9734;</span>
+            </div>
+          </div>
+        </div>
+        <div class="card p-0" data-name="people">
+            <img src="m13.png" alt="img">
+          <div class="card-body">
+            <p class="card-text">Lorem ipsum dolor..</p>
+            <div class="product-number">Товар №123</div>
+            <p class="card-text-desktop">Дополнительный текст для компьютеров</p>
+            <div class="price discount">500 000 UZS</div>
+            <div class="price">600 000 UZS</div>
+            <p>-20% скидка</p>
+            <div class="rating">
+              <span class="star">&#9733;</span>
+              <span class="star">&#9733;</span>
+              <span class="star">&#9733;</span>
+              <span class="star">&#9734;</span>
+              <span class="star">&#9734;</span>
+            </div>
+          </div>
+        </div>
+        <div class="card p-0" data-name="people">
+            <img src="photo1.jpg" alt="img">
+          <div class="card-body">
+            <p class="card-text">Lorem ipsum dolor..</p>
+            <div class="product-number">Товар №123</div>
+            <p class="card-text-desktop">Дополнительный текст для компьютеров</p>
+            <div class="price discount">500 000 UZS</div>
+            <div class="price">600 000 UZS</div>
+            <p>-20% скидка</p>
+            <div class="rating">
+              <span class="star">&#9733;</span>
+              <span class="star">&#9733;</span>
+              <span class="star">&#9733;</span>
+              <span class="star">&#9734;</span>
+              <span class="star">&#9734;</span>
+            </div>
+          <style>
+            h1 {
+              text-align: center;
+              font-family: Arial, Helvetica, sans-serif;
+              font-size: 38px;
+              font-weight: bold;
+              margin-top: 10px;
+              position: relative;
+              left: 30px;
+              top: 60px;
+              margin-bottom: 30px;
+              color: rgb(98, 99, 97);
+            }     
+                      
+            body {
+             margin: 0;
+             padding: 0;
+            }
+
+            form {
+            border: none;
+            margin: 0;
+            padding: 0;
+            }
+
+            </style>
+        </div>   
+        </div>
+      </div>
+      <footer>
+        <h3 id="22">We are on social media</h3>
+        <div class="social-links">
+          <a href="https://www.facebook.com/yourpage"><i class="fab fa-facebook"></i> Facebook</a>
+          <a href="https://twitter.com/yourpage"><i class="fab fa-twitter"></i> Twitter</a>
+          <a href="https://www.instagram.com/yourpage"><i class="fab fa-instagram"></i> Instagram</a>
+        </div>
+        <p id="22">About our company: We are a leading provider of high-quality products and services in the industry. Our mission is to provide our customers with the best possible experience and to exceed their expectations every time.</p>
+      </footer>   
+      <a  href="https://t.me/имя_канала" class="chat-button" id="1">
+        <span class="chat-icon"></span>
+        Написать нам
+      </a>
+      
+<div class="pagination">
+  <a href="#" class="active">1</a>
+  <a href="page2.html">2</a>
+  <a href="page3.html">3</a>
+  <a href="page4.html">4</a>
+  <a href="page5.html">5</a>
+  <a href="page6.html">6</a>
+</div>
+    </div>
+  </body>
+</html>
